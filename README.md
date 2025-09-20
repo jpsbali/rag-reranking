@@ -12,3 +12,5 @@ This is where **reranking** comes in: a second-stage process that reorders the i
 Reranking uses a dedicated model—typically a **cross-encoder** or a **late interaction model** to directly compare each candidate passage with the query, assigning a fine-grained relevance score. By re-evaluating these candidate passages, rerankers help surface  the most useful, specific, and accurate results to the top.
 
 In this notebook, we’ll explore the most popular reranking approaches in modern RAG pipelines, with an intuitive look at how these models work and how they improve retrieval quality.
+
+https://www.youtube.com/watch?v=7ZU85v4Kt-Y
